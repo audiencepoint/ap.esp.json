@@ -1,7 +1,8 @@
 ## Synopsis
 
-ap.esp.json is a javascript source file that uses Regular Expressions to identify the sending range of a given ESP. The range values can be ascertained from the whois database (http://www.whois.com/whois/74.112.65.204). Each ESP has 
-its own block of sending IP addresses and each IP Address can be collected from the headers of an email message.
+The ap.esp.json project is a json-based file that uses Regular Expressions to identify the sending range of a given ESP. The range values can be ascertained from the whois database (http://www.whois.com/whois/74.112.65.204). 
+
+Each ESP has its own block of sending IP addresses and each IP Address can be collected from the headers of an email message and can be translated into a regular expression which can Identify the ESP associated with the IP Address.
 
 The Regex for the IP Range can be identified through online tools like this:
 
@@ -69,10 +70,10 @@ before you commit to the GitHub Repository.
 
 The image size should be 128px to 512px.
 
-* NOTE:* The regular expressions are being stored as a string, so backslashes (*\*) will need to be escaped (*\\*) .
-
-"^216*\\*.27*\\*.([0-9]|[1-8][0-9]|9[0-5])*\\*.([0-9]|[1-9][0-9]|1([0-9][0-9])|2([0-4][0-9]|5[0-5]))$"
-
+*NOTE:* The regular expressions are being stored as a string, so backslashes (\\) will need to be escaped (\\\\) .
+```
+"^216\\.27\\.([0-9]|[1-8][0-9]|9[0-5])\\.([0-9]|[1-9][0-9]|1([0-9][0-9])|2([0-4][0-9]|5[0-5]))$"
+```
 
 ## Contributors
 
