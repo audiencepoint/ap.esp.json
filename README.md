@@ -9,10 +9,11 @@ The Regex for the IP Range can be identified through online tools like this:
 
 ## Code Example
 
-The ap.esp.json file can be used to identify the sending ESP with the following snippet of Javascript code:
+The ap.esp.json file can be used to identify the sending ESP with the following snippets of code:
 
+### Javascript
 ```
-$.getJSON("http://<yourserver>.com/ap.esp.json", function(data){
+$.getJSON("http://<yourserver>.com/ap.esp.min.json", function(data){
 
     for( var ipMatch in data )
     {   
@@ -25,12 +26,32 @@ $.getJSON("http://<yourserver>.com/ap.esp.json", function(data){
 }
 ```
 
+### PHP:
+
+```
+//get the contents of the IP regex file	
+$jsonData= file_get_contents("http://<yourserver>/ap.esp.min.json");
+$phpArray = json_decode($jsonData, true);
+
+$matches = array();
+
+$ip = "123.123.123.123";
+			
+foreach ($phpArray as $ESPName => $ESPObject) //loop through records of array ( JSON )
+{ 
+	if (preg_match( "/".$ESPObject["re"]."/", $ip, $matches ) == $SUCCESS )
+	{
+		return $ESPName;
+	}   
+}
+```
+
 ## Motivation
 
-AudiencePoint, as both a marketing & technology company wants to reinvest in the industry by sharing building blocks that creates industry value. 
+AudiencePoint, as a marketing AND a technology company wants to reinvest in the industry by sharing building blocks that creates greater industry value. 
 
 
-## Adding a node
+## Adding a node to this project
 
 Additional nodes can be added alphabetically to ap.esp.json by adding this node:
 
@@ -41,7 +62,16 @@ Additional nodes can be added alphabetically to ap.esp.json by adding this node:
 		"image": "myMail.png"},	
 ```
 
-Please remember to add the image of the ESP to the images directory of GitHub.
+Please remember to add the image of the ESP to the images directory of GitHub and to minify and validate the changes to the file
+before you commit to the GitHub Repository. 
+
+[http://www.cleancss.com/json-minify/](http://www.cleancss.com/json-minify/)
+
+The image size should be 128px to 512px.
+
+* NOTE:* The regular expressions are being stored as a string, so backslashes (*\*) will need to be escaped (*\\*) .
+
+"^216*\\*.27*\\*.([0-9]|[1-8][0-9]|9[0-5])*\\*.([0-9]|[1-9][0-9]|1([0-9][0-9])|2([0-4][0-9]|5[0-5]))$"
 
 
 ## Contributors
