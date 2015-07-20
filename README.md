@@ -27,7 +27,7 @@ $.getJSON("http://<yourserver>.com/ap.esp.min.json", function(data){
 }
 ```
 
-### PHP:
+### PHP
 
 ```
 //get the contents of the IP regex file	
