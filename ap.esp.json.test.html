@@ -1,0 +1,30 @@
+<html>
+ 	<meta charset="UTF-8"> 
+ 	<head>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript">
+	
+		function TestESP(ipAddress)
+		{
+			$.getJSON("ap.esp.json", function(data){
+
+				for( var ipSender in data )
+				{   
+					var reg = new RegExp(data[ipSender].re);
+					if(reg.test(ipAddress))
+					{
+						console.log( "WINNER:" + data[ipSender].name );
+						break;
+					}
+				}
+			});
+		}
+		</script>
+	</head>
+	<body>
+
+		<input type='text' id="IPAddress" value='66.231.92.44'/>
+		<input type='button' name="CheckIP" value='CheckIP' onclick='TestESP( $("#IPAddress").val() );'/>
+		
+	</body>	
+</html>
