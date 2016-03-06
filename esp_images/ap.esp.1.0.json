@@ -291,7 +291,7 @@
 	{
 		"id":22,
 		"name": "Level 3",
-		"image": "level-3-communications.png",		
+		"image": "level-3-communications.gif",		
 		"url": "http://www.level3.com/en/",
 		"twitter": "Level3",
 		"sending_ips":[
@@ -333,7 +333,7 @@
 	{
 		"id":25,
 		"name": "Peer 1 Network",
-		"image": "Peer_1_Logo.gif",	
+		"image": "Peer_1_Logo.png",	
 		"url": "http://www.peer1.com",
 		"twitter":"peer1",
 		"sending_ips":[
@@ -346,7 +346,7 @@
 	{
 		"id":26,
 		"name": "Responsys",
-		"image": "responsys.png",
+		"image": "responsys.jpg",
 		"url": "https://www.oracle.com/marketingcloud/products/cross-channel/marketing-to-consumers.html",
 		"twitter": "OracleMktgCloud",
 		"sending_ips":[
@@ -414,7 +414,7 @@
 	{
 		"id":30,
 		"name": "IBM Marketing Cloud",
-		"image": "IBM_logo.png",
+		"image": "IBM_logo.gif",
 		"url": "http://www.silverpop.com/",
 		"twitter": "silverpop",
 		"sending_ips":[
@@ -452,7 +452,7 @@
 	{
 		"id":33,
 		"name": "StrongView",
-		"image": "gI_102915_strongview-logo-main_wbug_rgb_large",	
+		"image": "strongview.png",	
 		"url": "https://www.strongview.net/",
 		"twitter": "strongview",
 		"sending_ips":[
@@ -464,7 +464,7 @@
 	{
 		"id":34,
 		"name": "TeraData",
-		"image": "teradata.gif",	
+		"image": "teradata.png",	
 		"url": "http://marketing.teradata.com/",
 		"twitter":"Teradata_Apps",
 		"sending_ips":[
@@ -488,7 +488,7 @@
 	{
 		"id":36,
 		"name": "Wayfair",
-		"image": "wayfair.png",
+		"image": "wayfair.jpeg",
 		"url": "http://www.wayfair.com/",
 		"twitter": "wayfair",
 		"sending_ips":[
@@ -500,7 +500,7 @@
 	{
 		"id":37,
 		"name": "WhatCounts",
-		"image": "whatcounts.png",			
+		"image": "whatcountslogo.png",			
 		"url": "http://www.whatcounts.com/",
 		"twitter": "whatcounts",
 		"sending_ips":[
@@ -524,7 +524,7 @@
 	{
 		"id":39,
 		"name": "YesMail",
-		"image": "yesmail.png",
+		"image": "yesmail.jpg",
 		"url": "http://www.yesmail.com/",
 		"twitter": "yesmail",
 		"sending_ips":[
@@ -537,7 +537,7 @@
 	{
 		"id":40,
 		"name": "Zayo",
-		"image": "zayo_logo.png",	
+		"image": "Zayo_logo.png",	
 		"url": "http://www.zayo.com/",
 		"twitter": "zaygroup",
 		"sending_ips":[
