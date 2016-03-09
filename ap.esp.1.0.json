@@ -242,7 +242,7 @@
 	{
 		"id":40,
 		"name": "Fishbowl",
-		"image": "Zayo_logo.png",	
+		"image": "fishbowl.png",	
 		"url": "http://www.fishbowl.com/",
 		"twitter": "fishbowlinc",
 		"sending_ips":[
