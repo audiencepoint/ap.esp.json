@@ -67,7 +67,7 @@
 	{
 		"id":46,
 		"name": "Beliefnet",
-		"image": "belieftnet.jpg",			
+		"image": "beliefnet.jpg",			
 		"url":"http://www.beliefnet.com/",
 		"twitter":"beliefnet",
 		"sending_ips":[
