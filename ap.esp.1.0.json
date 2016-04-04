@@ -142,18 +142,6 @@
 		]
 	},
 		
-	"CERFnet": 					
-	{ 
-		"id":9,
-		"name": "CERFnet",
-		"image": "notFound_cerfnet.png",	
-		"url":"about:none",
-		"twitter":"",
-		"broadcast":false,
-		"sending_ips":[
-		]	
-	},
-		
 	"Constant Contact": 			
 	{
 		"id":10,
