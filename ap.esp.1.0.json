@@ -370,14 +370,14 @@
 	},
 
 		
-	"Internap Network Services": 	
+	"SalesFusion": 	
 	{
 		"id":21,
-		"name": "Internap Network Services",
-		"image": "internap.png",	
-		"url": "http://www.internap.com/",
-		"twitter": "internap",
-		"broadcast":false,
+		"name": "SalesFusion",
+		"image": "SalesFusion.png",	
+		"url": "http://www.salesfusion.com/",
+		"twitter": "Salesfusion",
+		"broadcast":true,
 		"sending_ips":[
 			"^64\\.(9[4-5])\\.([0-9]|[1-9][0-9]|1([0-9][0-9])|2([0-4][0-9]|5[0-5]))\\.([0-9]|[1-9][0-9]|1([0-9][0-9])|2([0-4][0-9]|5[0-5]))$"
 		]
